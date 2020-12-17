@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Slider Responsive</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	 
+	<link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+   
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+	
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+    	touch: true,
+    	pauseOnAction: false,
+    	pauseOnHover: false,
+    });
+  });
+</script>
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light  row col-12">
+      
+    
+      
+		
+          <div class="col-8 col-md-4">
+			<img src="imagenes/juntos.png" class="col-10">
+		  </div>
+	
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarText">
+		 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 col-8">
+		   <li class="nav-item active col-2 ">
+			 <a class="nav-link" href="http://127.0.0.1:5500/silider.html">Inicio <span class="sr-only">(current)</span></a>
+		   </li>
+		   <li class="nav-item col-2 ">
+			 <a class="nav-link" href="http://127.0.0.1:5500/mostrar_productos.html">Productos</a>
+		   </li>
+		   <li class="nav-item col-2">
+			   <a class="nav-link" href="http://127.0.0.1:5500/landing.html">Nosotros</a>
+			 </li>
+			 <li class="nav-item col-2">
+			   <a class="nav-link" href="http://127.0.0.1:5500/ofertas.html">Ofertas</a>
+			 </li>
+			 <li class="nav-item col-2">
+			   <a class="nav-link" href="http://127.0.0.1:5500/formulario.html">Contáctenos</a>
+			 </li>
+			 
+			
+		  
+		 </ul>
+		 
+				<p class="col-2"><i class="fas fa-phone-alt mr-3"></i>2273-8784</p>
+        </div>
+	 
+	 </nav>
+	
+
+
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="imagenes/banner1.jpg" alt="">
+				
+			</li>
+			<li>
+				<img src="imagenes/banner2.jpg" alt="">
+				
+			</li>
+			<li>
+				<img src="imagenes/banner3.jpg" alt="">
+			
+			</li>
+		</ul>
+	</div>
+	 
+	
+		
+	   <p class="texto1 mt-5 col-12"><b>Visita la sección de productos</b></p>
+	   <P class="infor mb-5">Puedes encontrar nuestros productos divididos según su categoría</P>
+
+	
+
+
+	<section class="row container-fluid mx-auto ">
+		<div class="col-5 col-md-3 mx-auto mb-4" id="cocaja">
+			<a href="http://127.0.0.1:5500/electrico.html"><img class=" col-10 caja mt-3 ml-md-5" src="https://i.ibb.co/WK0YXRw/herramientas-ele-1.jpg" alt="herramientas-ele-1" ></a>
+		
+		</div>
+		<div class="col-5 col-md-3 mx-auto " id="cocaja">
+			<a href="http://127.0.0.1:5500/manuales.html"><img class=" col-10 mt-3  caja ml-md-4" src="https://i.ibb.co/wJ85XMy/herramientas-man-1.jpg" alt="herramientas-man-1"></a>
+			
+		</div>
+		<div class="col-5 col-md-3 mx-auto " id="cocaja">
+			<a href="http://127.0.0.1:5500/pvc.html"><img class=" col-10 caja mt-3 ml-md-5 " src="https://i.ibb.co/L9H79sf/pvc-1.jpg" alt="pvc-1" ></a>
+			
+		
+		</div>
+		<div class="col-5 col-md-3 mx-auto " id="cocaja">
+			<a href="http://127.0.0.1:5500/quimicos.html"><img class="col-10 mt-3 caja ml-md-4 " src="https://i.ibb.co/LCmgWXt/Quimicos2-1.jpg" alt="Quimicos2-1"></a>
+			
+		</div>
+		
+	</section>
+
+	<p class="texto1 mt-5 col-12"><b>Conoce nuestros proveedores</b></p>
+	<p class="infor pb-4">Trabajamos diferentes marcas por todo el país, aquí adelante puedes ver algunas de las marcas</p>
+	
+	
+</div>
+
+<div class="peliculas-recomendadas contenedor">
+	<div class="contenedor-titulo-controles">
+	
+		<div class="indicadores"></div>
+	</div>
+
+	<div class="contenedor-principal">
+		<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+		<div class="contenedor-carousel">
+			<div class="carousel">
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/total.png" alt=""></a>
+				</div>
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/Bellota.png" alt=""></a>
+				</div>
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/Sherwin.png" alt=""></a>
+				</div>
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/lanco.png" alt=""></a>
+				</div>
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/toolcraft.png" alt=""></a>
+				</div>
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/arji.png" alt=""></a>
+				</div>
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/dewalt-logo.png" alt=""></a>
+				</div>
+				<div class="pelicula">
+					<a href="#"><img src="imagenes/3m.png" alt=""></a>
+				</div>
+				
+			
+			</div>
+		</div>
+
+		<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+	</div>
+</div>
+
+
+	
+		<p class="texto1 col-12 mt-5 "><b>Llegar es sencillo</b></p>
+		<p class="infor mb-5">Gracias a la tecnología ahora ubicarnos es muy fácil, aquí
+			puedes ver la dirección exacta en el mapa</p>
+	
+	
+
+	<iframe class="col-12 mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125756.37990703077!2d-84.08835334179692!3d9.943369800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e4018a3f4f7b%3A0x92fda0ed81a39cbd!2sFerreter%C3%ADa%20San%20Rafael!5e0!3m2!1ses!2scr!4v1607316590479!5m2!1ses!2scr"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+	
+      
+    
+      
+		
+		<div class="row col-12 foot justify-content-center mb-3 ">
+			<div class="col-12  col-md-5 row horario mt-4 mb-4">
+				<p class="col-12 titulo">Horario</p>
+
+				<p class="col-4">Lunes a Viernes </p>
+				<p class="col-5">7:30 a.m. a 5:00 p.m</p>
+				<p class="col-4">Sábado</p>
+				<p class="col-5">7:30 a.m. a 3:00 p.m</p>
+				<p class="col-4">Domingo</p>
+				<p class="col-5">8:00 a.m. a 12:00 p.m</p>
+				
+
+			</div>
+
+			<div class="col-12 col-md-3">
+				<p class="col-12 mt-4 mb-4 titulo">Dirección</p>
+
+				<p>350m Este del Cristo de Sabanilla, frente al Hogar Calazans, San Rafael, San José Province, Costa Rica</p>
+
+			</div>
+
+			<div class="col-12 col-md-4 mt-5 mb-4">
+				<img src="imagenes/juntos.png" class="col-12">
+
+				
+
+			</div>
+
+			  
+
+		  
+		</div>
+		
+  
+	  
+		  
+		
+	   
+
+   
+   </nav>
+
+	  
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/logic.js"></script>
+	<script type="text/javascript" charset="utf-8"></script>
+	
+	 <script src="https://kit.fontawesome.com/16599b263d.js" crossorigin="anonymous"></script>
+	
+</body>
+</html>
