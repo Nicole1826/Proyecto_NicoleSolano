@@ -1,0 +1,246 @@
+#seccion_productos{
+
+    margin-top: 10vh;
+    margin-left: 15vh;
+}
+
+.card{
+    border: 2px solid #D7D7D7;
+    float: left;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+    text-align: center;
+    width: 25vw;
+    height: 35vw;
+    
+}
+
+.card .nombre{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.card .foto{
+  
+    background-size: cover;
+ 
+    
+    
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 2vh;
+    width: 200px;
+}
+
+.titulo{
+    border-bottom: 5px solid #06204E;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3rem;
+}
+
+#buscar{
+    margin-left: 50vh;
+    text-align: center;
+    font-size: 1.3rem;
+    
+    border-radius: 10px;
+    
+}
+
+.titulo2{
+    font-size: 1.3rem;
+    
+}
+.foot{
+	border-top: 5px solid #06204E;
+	border-bottom: 5px solid #FFB703;
+	margin: 0;
+	padding: 0;
+}
+@media screen and (max-width:650px) {
+    #buscar{
+		
+        margin-left: 30vh;
+        font-size: 1rem;
+		
+    }
+    
+    .titulo{
+        font-size: 0.2rem;
+    }
+
+    .card .foto{
+  
+        background-size: cover;
+        height: 50px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 2vh;
+        width: 50px;
+    }
+
+    .card .nombre{
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        font-size: 0.7rem;
+    }
+
+    .card .precio{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 0.6rem;
+    }
+    .card .marca{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 0.6rem;
+    }
+    .card{
+        border: 2px solid #D7D7D7;
+        float: left;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+        text-align: center;
+        width: 25vw;
+        height: 37vw;
+        
+    }
+    
+	
+	
+	
+
+
+    
+        
+    
+}
+@media screen and (min-width:650px) and (max-width:878px){
+    #buscar{
+		
+        margin-left: 30vh;
+        font-size: 1rem;
+		
+    }
+    
+    .titulo{
+        font-size: 0.2rem;
+    }
+
+    .card .foto{
+  
+        background-size: cover;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 2vh;
+        width: 100px;
+    }
+
+    .card .nombre{
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        font-size: 1rem;
+    }
+
+    .card .precio{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 0.8rem;
+    }
+    .card .marca{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 0.8rem;
+    }
+    .card{
+        border: 2px solid #D7D7D7;
+        float: left;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+        text-align: center;
+        width: 25vw;
+        height: 37vw;
+        
+    }
+    
+	
+	
+	
+
+
+    
+        
+    
+}
+
+@media screen and (min-width:878px) and (max-width:1200px){
+    #buscar{
+		
+        margin-left: 30vh;
+        font-size: 1rem;
+		
+    }
+    
+    .titulo{
+        font-size: 0.2rem;
+    }
+
+    .card .foto{
+  
+        background-size: cover;
+        height: 150px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 2vh;
+        width: 150px;
+    }
+
+    .card .nombre{
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        font-size: 1.5rem;
+    }
+
+    .card .precio{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 1.3rem;
+    }
+    .card .marca{
+        text-align: center;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size:  1.3rem;
+    }
+    .card{
+        border: 2px solid #D7D7D7;
+        float: left;
+        margin-right: 5vw;
+        margin-bottom: 5vh;
+        text-align: center;
+        width: 25vw;
+        height: 40vw;
+        
+    }
+    
+	
+	
+	
+
+
+    
+        
+    
+}
